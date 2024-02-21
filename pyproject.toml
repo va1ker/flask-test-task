@@ -7,12 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-Flask = {extras = ["sqlalchemy"], version = "^3.0.2"}
+Flask = {extras = ["async"], version = "^3.0.2"}
 requests = "^2.31.0"
-SQLAlchemy = "^2.0.27"
 python-dotenv = "^1.0.1"
-geopy = "^2.4.1"
+geopy = {extras = ["aiohttp"], version = "^2.4.1"}
 flask-sqlalchemy = "^3.1.1"
+redis = "^5.0.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.2.0"
