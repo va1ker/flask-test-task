@@ -1,6 +1,10 @@
 ### Requirements
-- Python ^3.11
+- [Docker](https://www.docker.com/)
+
+### Requirements (Dev)
+- Python ^3.11 
 - [Poetry](https://python-poetry.org/)
+ 
 
 ### How to run?
 
