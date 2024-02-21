@@ -33,5 +33,3 @@ I recommend use Postman for this
 ```
 http://127.0.0.1:5000/update_user?user_id=2&city=moscow
 ```
-
-https://docs.google.com/document/d/1jQdUgI4kEiZ14B7vQAt0Ioaqspub1zhakej3rqXi6Zc/edit
