@@ -27,6 +27,21 @@ docker compose up
 
 ### How to test?
 
+Start test with
+```bash
+poetry run python3 app/test.py
+```
+
+### Endpoints
+
+There is only one endpoint for changing balance of user
+```
+http://127.0.0.1:5000/update_user
+```
+It is accepting two args
+```
+user_id && city
+```
 Simply send POST requests with args to endpoint like this
 
 I recommend use Postman for this
